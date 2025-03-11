@@ -7,6 +7,7 @@ const getProduct = async () => {
 const Page = async () => {
   const data = await getProduct();
   console.log("DATA", data);
+  console.log("DATA", data);
 
   return (
     <div>
